@@ -24,7 +24,7 @@ public class Curso {
 	}
 	
 	public List<Aula> getAulas() {
-		return Collections.unmodifiableList(aulas);  //nao permite adicionar atraves de metodos no programa principal
+		return Collections.unmodifiableList(aulas);  //nao permite adicionar por fora da Classe
 	}
 	
 	public void adiciona(Aula aula) {
