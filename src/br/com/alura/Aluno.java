@@ -1,8 +1,5 @@
 package br.com.alura;
 
-import java.util.Collections;
-import java.util.Set;
-
 public class Aluno {
 	
 	private String nome;
